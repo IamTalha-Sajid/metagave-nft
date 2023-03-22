@@ -1,0 +1,27 @@
+{
+  "name": "hardhat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+    "@nomiclabs/hardhat-ganache": "^2.0.1",
+    "hardhat": "^2.12.3"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@truffle/hdwallet-provider": "^2.0.14",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.1",
+    "ethereum-waffle": "^3.4.4",
+    "hardhat-waffle": "^0.0.1-security",
+    "nvm": "^0.0.4",
+    "web3": "^1.8.1"
+  }
+}
